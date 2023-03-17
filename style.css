@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header img {
+  width: 200px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+header, section {
+  text-align: center;
+  margin: auto;
+}
+
+section div {
+  width: 150px;
+}
+
+#cards {
+  max-width: 700px;
+  margin-bottom: 15px;
+}
+
+div {
+  display: inline-block;
+  margin: 4px;
+  border-radius: 10px;
+}
+
+.class1, .class2, .class3, .class4 {
+  background-image: url('./files/carta-trybe-verso.png');
+  height: 200px;
+  width: 150px;
+  background-size: cover;
+}
+
+.class1Front {
+  background-image: url('./files/node.png');  
+  height: 200px;
+  width: 150px;
+  background-size: cover;
+}
+
+.class2Front {
+  background-image: url('./files/css.png');
+  height: 200px;
+  width: 150px;
+  background-size: cover;
+}
+
+.class3Front {
+  background-image: url('./files/html.png');
+  height: 200px;
+  width: 150px;
+  background-size: cover;
+}
+
+.class4Front {
+  background-image: url('./files/js.png');
+  height: 200px;
+  width: 150px;
+  background-size: cover;
+}
+
+button {
+  background-color: rgba(7, 65, 35, 0.961);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 7px;
+}
+
+#restart-button {
+  text-align: center;
+}
