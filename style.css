@@ -27,8 +27,9 @@ section div {
 
 div {
   display: inline-block;
-  margin: 4px;
+  margin: 10px;
   border-radius: 10px;
+  box-shadow: 10px 5px 20px rgb(43, 58, 48);
 }
 
 .class1, .class2, .class3, .class4 {
